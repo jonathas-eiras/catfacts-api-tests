@@ -19,18 +19,7 @@ Automatizar os seguintes cenários via API:
 
 ## 📁 Estrutura dos Arquivos
 
-cypress/
-├── e2e/
-│ └── features/
-│    ├── breeds_happy.feature
-│   ├── breeds_unhappy.feature
-├── support/
-  └── step_definitions/
-│   └── cat-breed_api.js
-│ └── e2e.js
-│ └── commands.js
-cypress.config.js
-package.json
+<img width="247" alt="Screenshot 2025-06-08 at 11 34 37" src="https://github.com/user-attachments/assets/d53bc9e0-5f57-4de9-a380-54259432bb37" />
 
 
 ## 🧪 Como Executar os Testes localmente
@@ -38,9 +27,16 @@ package.json
 - Instale as dependências:  
 ```bash
 npm install
+```
+- Execute os testes:  
+```bash
+npx cypress open
+```
 
+## Visualizar relatório de execução no Actions
 
-## Visualizar relatório de execução
+  - Clicar no link no artifacts do Actions.
 
-    - Clicar no link no artifacts do Actions.  
+    <img width="1154" alt="Screenshot 2025-06-08 at 11 23 32" src="https://github.com/user-attachments/assets/f32a98f6-9963-49a6-8080-276f14259021" />
+ 
  
